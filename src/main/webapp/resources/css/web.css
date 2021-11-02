@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'NanumGothicBold';
+    src: url("/graduation/fonts/NanumGothicBold.ttf") format(‘truetype’);
+}
+
+body {
+	margin : 0px;
+	font-family : 'NanumGothicBold' !important;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+
+#navbar {
+	position : static;
+	display : flex;
+	width : 100%;
+	background-color:gray;
+}
+
+.nav-container {
+	min-height : 60px;
+	width : 100%;
+	display : flex;
+	margin-left : auto;
+	margin-right : auto;
+	align-items : center;
+	padding-right : 30px;
+	padding-left : 30px;
+}
+
+.nav-right {
+	justify-content : flex-end;
+}
+.nav-left, .nav-rifht {
+	display : flex;
+	flex-grow : 1;
+	flex-wrap : wrap;
+	text-align : center;
+	padding : 12px 12px;
+}
+
+.nav-item {
+	justify-content : center;
+	align-items : center;
+	display : inline-flex;
+}
+
+.logo-item {
+	justify-content : left;
+	align-items : center;
+	position : relative;
+	display : inline-flex;
+	transition : opacity 150ms;
+}
+
+.nav-nav {
+	position : relative;
+	margin : 0;
+	margin-left : 10px;
+	padding : 0;
+	white-space : nowrap;
+	list-style-type : none;
+}
+
+.nav-nav>li {
+	display : inline-block;
+	margin : 10px;
+}
+
+a:link {
+	color : cyan;
+	text-decoration:none !important;
+}
+
+a:visited {
+	color : cyan;
+	text-decoration:none !important;
+}
+
+.text-xsmall {
+	size : 5px;
+}
+
+.text-muted {
+	opacity: 0.5;
+}
+
+.footer {
+	width : 100%;
+	padding-top : 30px;
+	height : 30px;
+	position : absolute;
+	bottom : 0;
+}
+
+.copyright {
+	padding : 5px 5px;
+}
+
+.container {
+	display : flex;
+	width : 100%;
+	box-sizing : border-box;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+.main {
+	display : flex;
+	max-width : 1300px;
+	min-height : 100%;
+	margin-left : auto;
+	margin-right : auto;
+	position : relative;
+}
+
+.content {
+	display : flex;
+	flex-wrap : wrap;
+	margin-left : auto;
+	margin-right : auto;
+	padding-bottom : 30px;
+	width : 960px;
+    align-items: flex-start
+}
+
+.main-notice, .main-board-container {
+	width : 60%;
+	background-color : #f8f5eb;
+}
+
+.main-login {
+	width : 30%;
+	margin-left : 50px;
+	margin-top : 25px;
+	border : 1px solid black;
+	border-radius: 0.5em;
+}
+
+.main-board-content {
+	display : inline-flex;
+	align-items : center;
+	flex-grow : 1;
+}
+
+.main-board-content>a:link {
+	color : black;
+	text-decoration:none !important;
+}
+
+.main-notice, .main-login, .main-board-container {
+	display : inline-flex;
+	padding : 10px 10px 10px 10px;
+	align-items : center;
+}
+
+.web-img {
+	width : 150px;
+	height : 150px;
+}
+
+
+
+
