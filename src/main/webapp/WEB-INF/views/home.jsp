@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <jsp:include page="/resources/menu/top.jsp" flush="false"/>
 
-	<div class="main">
+	<div class="main parollTest">
 		<div class="content">
 			<div class="main-notice">
 					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
